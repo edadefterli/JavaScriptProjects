@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #40414f; /* ChatGPT grisi */
+}
+
+.guess-box {
+    background-color: #525563; 
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    justify-content: flex-start;
+}
+
+.guess-box h1{
+    margin: 0;
+    font-size: 40px;
+    margin-bottom: 50px; /* Başlık ile içerik arasında boşluk */
+    color: white; /* Başlık rengi */
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: #77b6ea; /* Düğme rengi */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #619ec6;
+}
